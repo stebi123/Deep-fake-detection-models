@@ -3,6 +3,24 @@
 ## 📌 Overview
 Deepfake image and video detection is becoming increasingly crucial in today's digital age. With the rapid advancement of AI-driven content generation, distinguishing real from synthetic media is essential to combat misinformation, fraud, and digital manipulation. From social media to political campaigns, deepfakes have the potential to mislead the public, making robust detection methods a necessity for maintaining digital integrity. This repository documents my **literature review** and **hands-on training** of multiple deep learning architectures to evaluate their effectiveness in detecting deepfake images and videos.
 
+## 📊 Dataset Overview
+The dataset used in this study consists of images categorized into three sets: training, testing, and validation. Each set is further divided into two classes: real and fake. The breakdown is as follows:
+
+* Training Set: 6400 images (50% real, 50% fake)
+* Testing Set: 800 images (50% real, 50% fake)
+* Validation Set: 800 images (50% real, 50% fake)
+### 📌 Train : Test : Validation Ratio → 8:1:1
+
+All images in the dataset are facial images, ensuring that the models learn to detect manipulations in facial structures effectively.
+
+### 🏆 Significance of the Ratio
+The 8:1:1 split is chosen to provide an optimal balance between training efficiency and model evaluation:
+* ✅ 80% Training Data → Allows deep learning models to generalize patterns effectively.
+* ✅ 10% Validation Data → Helps in fine-tuning hyperparameters and preventing overfitting.
+* ✅ 10% Testing Data → Evaluates model performance on unseen data, ensuring real-world applicability.
+
+This structured division ensures that the model learns well, generalizes efficiently, and maintains robustness in detecting deepfake images. 🚀
+
 ## 🚀 Deep Learning Models Explored
 I have implemented and trained the following models for deepfake image detection:
 
@@ -57,7 +75,6 @@ The following table presents the performance metrics obtained after training:
 -  Expanding research into **deepfake video detection**, as image-based detection alone is insufficient to combat evolving generative techniques.
 -  As a starting point, I have explored **CNN-LSTM hybrid models** to analyze sequential frame inconsistencies in videos.
 -  Experimenting with **3D CNNs and Transformer-based models** for improved spatiotemporal feature extraction.
--  Developing **real-time detection** methods that can flag deepfake videos with minimal latency.
 
 ## 💡 Contributing
 If you're interested in improving deepfake detection methodologies or have insights into advanced architectures, feel free to contribute!
