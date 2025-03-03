@@ -12,6 +12,7 @@ The dataset used in this study consists of images categorized into three sets: t
 ### 📌 Train : Test : Validation Ratio → 8:1:1
 
 All images in the dataset are facial images, ensuring that the models learn to detect manipulations in facial structures effectively.
+* https://www.kaggle.com/datasets/examstebi/deep-fake-detection-6k-800-800/data
 
 ### 🏆 Significance of the Ratio
 The 8:1:1 split is chosen to provide an optimal balance between training efficiency and model evaluation:
