@@ -24,9 +24,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # 1. Define Paths for Your Datasets
-train_data_dir = "/content/drive/MyDrive/2000.1000.50 dataset/Train"
-val_data_dir = "/content/drive/MyDrive/2000.1000.50 dataset/Validation"
-test_data_dir = "/content/drive/MyDrive/2000.1000.50 dataset/Test"
+train_data_dir = '/content/drive/MyDrive/6k_800_800/Train'
+val_data_dir = '/content/drive/MyDrive/6k_800_800/Valiadation'
+test_data_dir = '/content/drive/MyDrive/6k_800_800/Test'
 
 from google.colab import drive
 drive.mount('/content/drive')
