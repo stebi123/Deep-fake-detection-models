@@ -24,9 +24,9 @@ print(f"Using device: {device}")
 # 1. Define Paths for Your Datasets
 # =================================
 # Add your dataset paths below
-train_data_dir = "/content/drive/MyDrive/dataset 50,250/train 1000"  # Replace with your train dataset path
-val_data_dir = "/content/drive/MyDrive/dataset 50,250/validation 1000"  # Replace with your validation dataset path
-test_data_dir = "/content/drive/MyDrive/dataset 50,250/test 50"    # Replace with your test dataset path
+train_data_dir = '/content/drive/MyDrive/6k_800_800/Train'
+val_data_dir = '/content/drive/MyDrive/6k_800_800/Valiadation'
+test_data_dir = '/content/drive/MyDrive/6k_800_800/Test'
 
 # 2. Data Preprocessing
 # =================================
