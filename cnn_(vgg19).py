@@ -21,9 +21,9 @@ print(f"Using device: {device}")
 # 1. Define Paths for Your Datasets
 # =================================
 # Add your dataset paths below
-train_data_dir = "/content/drive/MyDrive/test/train 1000"
-val_data_dir = "/content/drive/MyDrive/test/validation 1000"
-test_data_dir = "/content/drive/MyDrive/test/test 50"
+train_data_dir = '/content/drive/MyDrive/6k_800_800/Train'
+val_data_dir = '/content/drive/MyDrive/6k_800_800/Valiadation'
+test_data_dir = '/content/drive/MyDrive/6k_800_800/Test'
 
 from google.colab import drive
 drive.mount('/content/drive')
